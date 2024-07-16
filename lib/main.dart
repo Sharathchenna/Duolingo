@@ -1,4 +1,6 @@
-// ignore: unused_import
+// ignore_for_file: unused_import
+
+import 'package:duolingo/new_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const GreetingPhrasesScreen(),
+      home: StartScreen(),
     );
   }
 }
